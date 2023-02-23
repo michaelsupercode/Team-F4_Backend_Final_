@@ -1,0 +1,37 @@
+.ueberuns-Sec {
+    margin: 10% 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    .content {
+        h1 {
+            text-align: center;
+            color: $basicButtonBlue-full;
+            margin: 5% 0;
+        }
+        article {
+            width: 60%;
+            margin: 0 auto;
+            p {
+                line-height: 1.5rem;
+            }
+        }
+    }
+    img {
+        width: 80%;
+        text-align: center;
+    }
+}
+
+h2 {
+    margin: 5%;
+}
+
+.card {
+    display: block;
+    margin: 5%;
+    // 
+}
+
+// ################################################################################
+// ################################# MediaQueries IPad Air ########################
+// ################################################################################
