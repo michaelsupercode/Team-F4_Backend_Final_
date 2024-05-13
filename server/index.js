@@ -119,4 +119,4 @@ app.get("/api/user/favorites", verifyToken, (req, res) => {
 const PORT = process.env.PORT || 5000;
 app.use("/", express.static(path.join(__dirname, "../client/build")));
 app.use("*", express.static(path.join(__dirname, "../client/build")));
-app.listen(PORT, () => console.log("Listening on Port,", PORT));
+app.listen(PORT, () => console.log("serving at", PORT));
